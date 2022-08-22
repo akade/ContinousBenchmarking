@@ -1,4 +1,4 @@
-name: .NET
+name: Continous Benchmarking
 
 on:
   push:
@@ -20,12 +20,14 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore -c Release
     - name: Run Benchmarks
-      run: dotnet run --no-build --verbosity normal
+      run: dotnet run --no-build --verbosity normal -c Release
       working-directory: ./Benchmarks
     - name: Store benchmark result
       uses: rhysd/github-action-benchmark@v1
       with:
         tool: 'benchmarkdotnet'
         output-file-path: Benchmarks/BenchmarkDotNet.Artifacts/results/Benchmarks.SimpleBenchmarks-report-full-compressed.json
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        auto-push: true
