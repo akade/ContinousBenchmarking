@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661168429634,
+  "lastUpdate": 1661168644039,
   "repoUrl": "https://github.com/akade/ContinousBenchmarking",
   "entries": {
     "Benchmark": [
@@ -176,6 +176,40 @@ window.BENCHMARK_DATA = {
             "value": 250154842.63333333,
             "unit": "ns",
             "range": "± 25328.110300095614"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "committer": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "distinct": true,
+          "id": "b8da5e0e3de9be0b957bd63cc1cfc807459d6e21",
+          "message": "Merge branch 'main' of https://github.com/akade/ContinousBenchmarking",
+          "timestamp": "2022-08-22T13:42:59+02:00",
+          "tree_id": "437e214df21d21e2fe8adf3353e8da964fc4c656",
+          "url": "https://github.com/akade/ContinousBenchmarking/commit/b8da5e0e3de9be0b957bd63cc1cfc807459d6e21"
+        },
+        "date": 1661168643601,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait50",
+            "value": 50136899.786666654,
+            "unit": "ns",
+            "range": "± 19785.95449796464"
+          },
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait200",
+            "value": 200116687.97777778,
+            "unit": "ns",
+            "range": "± 16448.328057294948"
           }
         ]
       }
