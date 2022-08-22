@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661161419821,
+  "lastUpdate": 1661161722571,
   "repoUrl": "https://github.com/akade/ContinousBenchmarking",
   "entries": {
     "Benchmark": [
@@ -106,6 +106,40 @@ window.BENCHMARK_DATA = {
             "value": 300154406.0714286,
             "unit": "ns",
             "range": "± 19286.621445025987"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "committer": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "distinct": true,
+          "id": "488a2d1983333e60daf3a6347c4f365005f85f2b",
+          "message": "Changed timings again",
+          "timestamp": "2022-08-22T11:47:39+02:00",
+          "tree_id": "3910ef05547b8c83abeef2b278fa5cce689d12ec",
+          "url": "https://github.com/akade/ContinousBenchmarking/commit/488a2d1983333e60daf3a6347c4f365005f85f2b"
+        },
+        "date": 1661161722147,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait50",
+            "value": 80159709.93333334,
+            "unit": "ns",
+            "range": "± 9561.699771865116"
+          },
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait200",
+            "value": 250144942.85714287,
+            "unit": "ns",
+            "range": "± 15377.026556158093"
           }
         ]
       }
