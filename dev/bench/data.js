@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661161722571,
+  "lastUpdate": 1661168429634,
   "repoUrl": "https://github.com/akade/ContinousBenchmarking",
   "entries": {
     "Benchmark": [
@@ -140,6 +140,42 @@ window.BENCHMARK_DATA = {
             "value": 250144942.85714287,
             "unit": "ns",
             "range": "± 15377.026556158093"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16369295+akade@users.noreply.github.com",
+            "name": "Alex",
+            "username": "akade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b127381b7d159906f8d230b1215013d02874ee1",
+          "message": "Update benchmarks.yml",
+          "timestamp": "2022-08-22T13:39:21+02:00",
+          "tree_id": "f00849a9c8409a9d68f851548506e892e26a717c",
+          "url": "https://github.com/akade/ContinousBenchmarking/commit/8b127381b7d159906f8d230b1215013d02874ee1"
+        },
+        "date": 1661168428099,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait50",
+            "value": 80150505.11428572,
+            "unit": "ns",
+            "range": "± 13877.55020129521"
+          },
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait200",
+            "value": 250154842.63333333,
+            "unit": "ns",
+            "range": "± 25328.110300095614"
           }
         ]
       }
