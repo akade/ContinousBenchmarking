@@ -23,8 +23,9 @@ jobs:
       run: dotnet build --no-restore
     - name: Run Benchmarks
       run: dotnet run --no-build --verbosity normal
+      working-directory: ./Benchmarks
     - name: Store benchmark result
       uses: rhysd/github-action-benchmark@v1
       with:
         tool: 'benchmarkdotnet'
-        output-file-path: BenchmarkDotNet.Artifacts/results/Sample.Benchmarks-report-full-compressed.json
+        output-file-path: Benchmarks/BenchmarkDotNet.Artifacts/results/Benchmarks.SimpleBenchmarks-report-full-compressed.json
