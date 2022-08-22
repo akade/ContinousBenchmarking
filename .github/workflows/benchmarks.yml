@@ -1,4 +1,4 @@
-name: .NET
+name: Continous Benchmarking
 
 on:
   push:
