@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661267179411,
+  "lastUpdate": 1661267299416,
   "repoUrl": "https://github.com/akade/ContinousBenchmarking",
   "entries": {
     "Benchmark": [
@@ -380,6 +380,40 @@ window.BENCHMARK_DATA = {
             "value": 600132790.4285715,
             "unit": "ns",
             "range": "± 22627.109926995796"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "committer": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "distinct": true,
+          "id": "b1e2d127c7440953a984e47c438f141aadb4b06e",
+          "message": "Fixed pipeline to not trigger on PRs",
+          "timestamp": "2022-08-23T17:07:07+02:00",
+          "tree_id": "11cfd8392adda38dc3572eb50934317dc10bc679",
+          "url": "https://github.com/akade/ContinousBenchmarking/commit/b1e2d127c7440953a984e47c438f141aadb4b06e"
+        },
+        "date": 1661267296028,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait50",
+            "value": 50083467.77857143,
+            "unit": "ns",
+            "range": "± 3558.15801313303"
+          },
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait200",
+            "value": 600089751.7333333,
+            "unit": "ns",
+            "range": "± 11859.370734129358"
           }
         ]
       }
