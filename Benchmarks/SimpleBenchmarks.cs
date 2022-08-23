@@ -15,6 +15,6 @@ public class SimpleBenchmarks
     [Benchmark]
     public void Wait200()
     {
-        Thread.Sleep(600);
+        Thread.Sleep(200);
     }
 }
