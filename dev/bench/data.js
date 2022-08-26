@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661267326377,
+  "lastUpdate": 1661518155763,
   "repoUrl": "https://github.com/akade/ContinousBenchmarking",
   "entries": {
     "Benchmark": [
@@ -448,6 +448,40 @@ window.BENCHMARK_DATA = {
             "value": 200130780.77777776,
             "unit": "ns",
             "range": "± 12066.608764437904"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "committer": {
+            "email": "alexander.kayed@noser.com",
+            "name": "Alexander Kayed"
+          },
+          "distinct": true,
+          "id": "a9eddbb3ef73291a81eb3c982facf8d776d41102",
+          "message": "Perf Regression",
+          "timestamp": "2022-08-26T14:48:02+02:00",
+          "tree_id": "1363d823b1f4fc7606ae9bd4c7acdd1327681d66",
+          "url": "https://github.com/akade/ContinousBenchmarking/commit/a9eddbb3ef73291a81eb3c982facf8d776d41102"
+        },
+        "date": 1661518153640,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait50",
+            "value": 50124628.438461535,
+            "unit": "ns",
+            "range": "± 9786.732463436978"
+          },
+          {
+            "name": "Benchmarks.SimpleBenchmarks.Wait200",
+            "value": 500133663.53333336,
+            "unit": "ns",
+            "range": "± 21880.970544766802"
           }
         ]
       }
